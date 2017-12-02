@@ -11,14 +11,13 @@ author:
 path:
 url:  'https://cornwallruby.co.uk'
 
-
 ########
 # more settings
 markdown: kramdown
 
 sass:
   sass_dir: css
-  style:    expanded
+  style: compressed
 
 permalink: /:title.html
 

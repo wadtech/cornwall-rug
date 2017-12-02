@@ -1,33 +1,51 @@
 <!DOCTYPE html>
 <html>
-<head>
-   <meta charset="utf-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1">
-   <title>{{ page.title }} - {{ site.title }}</title>
-   <link rel="stylesheet" type="text/css" href="{{ site.path }}/css/style.css" >
-   <link rel="alternate" type="application/atom+xml" href="{{ site.path }}/feed.xml" title="News Feed">
-</head>
-<body>
+  <head>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <title>{{ page.title }} - {{ site.title }}</title>
+     <link rel="stylesheet" type="text/css" href="{{ site.path }}/css/style.css" >
+     <link rel="alternate" type="application/atom+xml" href="{{ site.path }}/feed.xml" title="News Feed">
+  </head>
+  <body>
 
-<div class="container">
-<header class="masthead">
-   <h3 class="masthead-title">
-     <a href="/">{{ site.title }}</a>
-     {% if site.posts.size > 0 %}
-     <small>
-        &nbsp;&nbsp;&nbsp;<a href="{{ site.path }}/news.html">News</a>
-     </small>
-     {% endif %}
-     <small>
-        &nbsp;&nbsp;&nbsp;<a href="{{ site.path }}/contact.html">About</a>
-     </small>
-   </h3>
-</header>
+    <header class="masthead">
+      <div class="masthead-banner">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="/"><img src="/img/crug-white.svg" alt="Cornwall Ruby"></a>
+          </h3>
+        </div>
+      </div>
 
-<div id="content">
-  {{ content }}
-</div>
+      <div class="container">
 
-</div><!-- .container -->
-</body>
+        <nav role="main" class="menu">
+          <div class="menu-item">
+            <a href="/">Home</a>
+          </div>
+            {% if site.posts.size > 0 %}
+            <div class="menu-item">
+              <a href="{{ site.path }}/news.html">News</a>
+            </div>
+            {% endif %}
+          <div class="menu-item">
+            <a href="{{ site.path }}/contact.html">Contact</a>
+          </div>
+        </nav>
+        <hr />
+      </div>
+    </header>
+    <div class="container">
+      <div id="content">
+        {{ content }}
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <small>Logo provided by <a href="https://twitter.com/dannetherton">Dan</a>, Site built by <a href="https://twitter.com/mellett68">Pete</a> - It's open source! suggest a change via pull request <a href="https://github.com/wadtech/cornwall-rug">on Github</a></small>
+      </div>
+    </footer>
+  </body>
 </html>
