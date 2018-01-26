@@ -42,7 +42,6 @@
         <nav role="main" class="menu">
           <div class="menu-item">
             <a href="/">Home</a>
-          </div>
             {% if site.posts.size > 0 %}
             <div class="menu-item">
               <a href="{{ site.path }}/news.html">News</a>
@@ -50,6 +49,16 @@
             {% endif %}
           <div class="menu-item">
             <a href="{{ site.path }}/contact.html">Contact</a>
+          </div>
+          </div>
+          <div class="menu-item">
+            <a href="https://twitter.com/cornwall_ruby">Twitter</a>
+          </div>
+          <div class="menu-item">
+            <a href="https://www.facebook.com/cornwallruby/">Facebook</a>
+          </div>
+          <div class="menu-item">
+            <a href="{{site.slackurl}}">Slack</a>
           </div>
         </nav>
         <hr />

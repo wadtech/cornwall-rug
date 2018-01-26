@@ -10,6 +10,7 @@ author:
 #  use site.url only inside the web feed template (e.g. requires full url incl. protocol)
 path:
 url:  'https://cornwallruby.co.uk'
+slackurl: https://join.slack.com/t/cornwallruby/shared_invite/enQtMjgwMTUyOTM0NzA1LWE3ZjBkYzRlMTE0YTcwZmJmZDI1MGUxODBkZDQ2NTY2MWQwYjYxOTg0NzE5ZWM0Y2MyNTJiNTI4ZTRmMDc0OWI
 
 ########
 # more settings

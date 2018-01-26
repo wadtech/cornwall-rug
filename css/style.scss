@@ -221,7 +221,14 @@ table {
   & img {
     margin: 0;
     max-width: 500px;
+
+    margin: 0 auto
   }
+}
+
+nav {
+
+    text-align: center;
 }
 
 .menu {
@@ -271,4 +278,8 @@ footer {
 
 .post-date {
   color: $post-date-color;
+}
+
+.news {
+  text-align: center;
 }
