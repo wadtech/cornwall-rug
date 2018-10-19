@@ -48,7 +48,7 @@ a {
 // Headings
 
 h1, h2, h3, h4, h5, h6 {
-  margin-bottom:  .5rem;
+  margin-bottom:  1.2rem;
   font-weight:    bold;
   line-height:    1.25;
   color:          $headings-color;
@@ -96,6 +96,7 @@ dt {
 }
 dd {
   margin-bottom: .5rem;
+  margin-left: 0;
 }
 
 
@@ -282,4 +283,21 @@ footer {
 
 .news {
   text-align: center;
+}
+
+.join-us {
+  display: block;
+  padding: .5em 1em;
+  color: white;
+  background: $ruby-red;
+  border: 1px solid $ruby-red;
+  margin: 0 auto;
+  text-align: center;
+  width: 10em;
+
+  box-shadow: 2px 2px 5px #333;
+}
+
+.js-reframe + p {
+  margin-top: 1em;
 }
