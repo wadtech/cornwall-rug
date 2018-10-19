@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Resources
+summary: Learning resources aimed at beginner, intermediate and advanced Ruby developers
 ---
 Ruby (and Ruby on Rails) are very accessible for beginners but provide plenty of scope for more intermediate or advanced programmers to improve their toolbox. Even if you're a seasoned programmer there may be something here to interest you. If you know of any recommended resources not listed here, why not drop by and tell us about them?
 
